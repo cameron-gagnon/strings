@@ -7,12 +7,11 @@ A string manipulation library.
 """
 
 
-# TODO: This code is broken for some reason :(
 def reverse(s):
     result = ""
 
     for i in xrange(len(s)):
-        result += s[len(s) - i]
+        result += s[len(s) - i - 1]
 
     return result
 
